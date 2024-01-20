@@ -1,0 +1,59 @@
+body {
+    background-image: url(/sneakcraze_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#form {
+    border: 1px solid white;
+    width: 300px;
+    height: 380px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#form h1 {
+    color: rgb(42, 41, 41);
+}
+
+#form button {
+    margin-top: 15px;
+    width: 300px;
+    padding: 5px;
+    background-color: rgb(42, 41, 41);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.input-control input {
+    border: 2px solid rgb(42, 41, 41);
+    border-radius: 4px;
+    width: 100%;
+    padding: 3px;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.input-control.error input {
+    border-color: red;
+}
+
+.input-control .error {
+    height: 6px;
+    font-size: 9px;
+    color: red;
+}
